@@ -19,7 +19,7 @@ class User(models.Model):
     class Meta:
         verbose_name_plural = '用户'
 class Blog(models.Model):
-    surfix = models.CharField(max_length=1000000)
+    surfix = models.CharField(max_length=21844)
     theme = models.CharField(max_length=100)
     title = models.CharField(max_length=100)
     summary = models.CharField(max_length=1000)
